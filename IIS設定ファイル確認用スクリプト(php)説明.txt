@@ -1,0 +1,9 @@
+構成
+IIS設定ファイル(applicationHost.confg)：dev65_applicationHost.config
+IIS設定ファイルから指定サイト名関連の設定情報のみ抽出するphpスクリプト：IISetting_site_get.php
+
+内容説明
+IISの設定内容をテキストベースで確認する(テスト、本番環境でDIFFする)為に作成しました。
+applicationHost.confgをそのままテスト環境、本番環境のものをdiffしても差異が多すぎて
+単純比較ができません。そこで、指定のサイト名関連の設定情報のみ抽出した上で比較する事にしました。
+このphpスクリプトは抽出を自動化するものです。
